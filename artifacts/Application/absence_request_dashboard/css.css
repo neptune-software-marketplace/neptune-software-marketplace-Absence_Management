@@ -1,0 +1,109 @@
+.MainBoxes {
+    width: 32%;
+    height: 99%;
+    //margin-top:10px;
+}
+.TextStatus{
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+.sapUiCalMulti:not(.sapUiCalInt) {
+    width: 100%;
+}
+
+.customCalendarStyle {
+    width: 100% !important;
+}
+
+.customCalendarStyle .sapUiCalItem {
+    height: 60px;
+    position: relative;
+}
+
+.customCalendarStyle .sapUiCalItem[title]::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    top: 20px;
+    //font-weight: bold;
+}
+
+//////titles
+.Title {
+    font-size: 20px;
+}
+
+.TitleLeftDays {
+    color: green;
+    font-size: 20px;
+}
+
+.TitleList {
+    //color: #0070f2;
+    font-size: 20px;
+}
+
+.TitleUsedDaysNumber {
+    color: red;
+    font-size: 20px;
+}
+
+.TitleMain {
+    font-size: 20px;
+}
+
+//////titles
+@media only screen and (max-width: 1315px) {
+    .TitleMain {
+        font-size: 20px;
+    }
+
+    .MainBoxes {
+        width: 98%;
+        height: auto;
+        //margin: 0px;
+    }
+
+    //////titles
+    .Title {
+        font-size: 15px;
+    }
+
+    .TitleLeftDays {
+        color: green;
+        font-size: 22px;
+    }
+
+    .TitleList {
+        //color: #0070f2;
+        font-size: 22px;
+    }
+
+    .TitleUsedDaysNumber {
+        color: red;
+        font-size: 22px;
+    }
+
+    //////titles
+}
+
+/////sections
+.ListSection1 {
+    border: 1px solid red;
+    border-radius: 40px;
+}
+
+.ListSection {
+    border: 1px solid #0070f2;
+    border-radius: 40px;
+}
+
+.ListSection2 {
+    border: 1px solid green;
+    border-radius: 40px;
+}
+
+/////sections

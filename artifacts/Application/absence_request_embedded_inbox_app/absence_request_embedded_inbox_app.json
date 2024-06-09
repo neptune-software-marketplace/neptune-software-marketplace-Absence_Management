@@ -1,0 +1,511 @@
+{
+	"id": "29505dca-4b26-ef11-86d2-000d3ab928a5",
+	"createdAt": "2024-06-09T10:38:11.283Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "4293dbe7-a76e-4364-be65-d8fd631d1934",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "justifyContent",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fitContainer",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "direction",
+					"grouping": "Properties",
+					"value": "Column",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+					"fieldName": "oSimpleForm",
+					"fieldParent": "4293dbe7-a76e-4364-be65-d8fd631d1934",
+					"fieldType": "sap.ui.layout.form.SimpleForm",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Absence_Request>absence_request",
+					"bindingType": "u",
+					"bindingSource": "API",
+					"bindingParentID": "0D4EF727-FF24-EF11-86D2-000D3AB928A5",
+					"bindingPathID": "dc130746-c8b5-434e-8b25-368ac011a2f1",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "editable",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "b20354b1-4dee-4893-879c-bd5c501ef6c7",
+							"fieldName": "lbloSimpleFormstart_date",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "From",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "628be282-5a30-4b58-b1d0-763753549b8a",
+							"fieldName": "txtoSimpleFormstart_date",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"bindingType": "h",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/start_date}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "52dfab1a-e129-4f2c-8e9e-1e8f73140fe1",
+							"fieldName": "lbloSimpleFormend_date",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "To",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "8f4a0566-d833-410a-e827-fbecca3f4e86",
+							"fieldName": "txtoSimpleFormend_date",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/end_date}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "0024efaa-94b5-4e11-8a64-9ffc02d75316",
+							"fieldName": "lbloSimpleFormtotal_days",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Total days",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "d389a92a-0c7c-43f2-ccb8-f3f876b4a840",
+							"fieldName": "txtoSimpleFormtotal_days",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/total_days}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "031f2c8c-7cb3-46dc-8c58-03cd33f29073",
+							"fieldName": "lbloSimpleFormtype",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Type",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "715b46b7-9331-4fcc-89cb-7e1395ade248",
+							"fieldName": "TextTooltip",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"bindingType": "h",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/tooltip}",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Formatter",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Text/TextTooltip/text.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "594dd02c-4c2d-487e-da0d-1fa073161e5e",
+							"fieldName": "lbloSimpleFormyear",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Year",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "d2c89799-dd0f-49d5-96c4-f8ea53ef750d",
+							"fieldName": "txtoSimpleFormyear",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/year}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "56f11730-e6b8-47ad-b400-7859df4a6f7c",
+							"fieldName": "lbloSimpleFormextra_details",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Details",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "bb5476bd-a89a-42d3-ac9b-eec58a0b853c",
+							"fieldName": "txtoSimpleFormextra_details",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/extra_details}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "c68a0834-b4f9-4c31-b5e0-1001005f697e",
+							"fieldName": "lbloSimpleFormcreatedAt",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Created at",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "d1e330ed-9bb0-406f-9e35-ab3213310e06",
+							"fieldName": "txtoSimpleFormcreatedAt",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/createdAt}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "0585e194-1f82-4770-95e3-33753f99c571",
+							"fieldName": "lbloSimpleFormcreatedBy",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Created by",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "334a7436-da21-43d6-ef50-8b625a458c62",
+							"fieldName": "txtoSimpleFormcreatedBy",
+							"fieldParent": "d36bd856-f95f-4992-8c10-8411ad3b9bae",
+							"fieldType": "sap.m.Text",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{/createdBy}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "f721ea44-e7be-4fc2-dc43-7e915840a16b",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "6f72a07e-7877-4983-c446-c81b891aaaa7",
+					"fieldName": "oRestAPIGet",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "0d4ef727-ff24-ef11-86d2-000d3ab928a5",
+					"restOperation": "23d383c9-d46d-4019-8023-a423c5da1533",
+					"request": [],
+					"response": [
+						{
+							"status": 200,
+							"dataId": "dc130746-c8b5-434e-8b25-368ac011a2f1",
+							"modelFieldNo": "d36bd856-f95f-4992-8c10-8411ad3b9bae"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPIGet/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.06.09.1234",
+	"application": "absence_request_embedded_inbox_app",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": true,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "0d4ef727-ff24-ef11-86d2-000d3ab928a5",
+			"name": "Absence_Request",
+			"ver": "24.06.07.1852"
+		}
+	],
+	"package": "da029115-2924-ef11-86d2-000d3ab928a5"
+}

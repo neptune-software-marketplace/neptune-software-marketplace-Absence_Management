@@ -1,0 +1,27 @@
+{
+	"id": "b1cfdaae-4a26-ef11-86d2-000d3ab928a5",
+	"createdAt": "2024-06-09T10:26:17.003Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "BE6B70E8-FE24-EF11-86D2-000D3AB928A5",
+			"name": "absence_request",
+			"contextname": "absence_request"
+		}
+	],
+	"apis": [],
+	"name": "Rejected",
+	"ver": "24.06.09.1039",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "51d4d1a8-4a26-ef11-86d2-000d3ab928a5",
+	"package": "da029115-2924-ef11-86d2-000d3ab928a5"
+}

@@ -1,0 +1,80 @@
+{
+	"id": "be6b70e8-fe24-ef11-86d2-000d3ab928a5",
+	"createdAt": "2024-06-07T18:51:15.693Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "37706f5c-d6f3-409e-d3a5-ab6b2c0f65fb",
+			"fieldName": "start_date",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d412e6ec-9f97-4454-fac5-ff923f0ce784",
+			"fieldName": "end_date",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "506ab89d-3614-4315-bf7f-6b2c886aade7",
+			"fieldName": "total_days",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9a1b1348-0ef9-424d-ecf9-f86fa398732d",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "199a3521-a87e-40d9-c9ad-c61711855b41",
+			"fieldName": "type",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c14c9632-bf91-4c21-9cfc-f23c23e1bc4c",
+			"fieldName": "year",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "166bc3f0-6152-4adc-81a7-c6e685f991e0",
+			"fieldName": "extra_details",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "dff602e0-39ed-4dc4-d0d9-04a200308260",
+			"fieldName": "tooltip",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5c170c6b-2597-4a86-c5f3-1ec37ce2fe07",
+			"fieldName": "Uniqe_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "absence_request",
+	"description": null,
+	"ver": "24.06.09.1049",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "da029115-2924-ef11-86d2-000d3ab928a5",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,48 @@
+var response = xhr.responseJSON;
+App.setBusy(false);
+var userName = AppCache.userInfo.username;
+var year = new Date().getFullYear().toString();
+var options = {
+    parameters: {
+        where: JSON.stringify({ createdBy: userName, year: year }),
+    },
+};
+apiRestAPIGet(options);
+var options = {
+    parameters: {
+        where: JSON.stringify({ createdBy: userName, year: year }),
+    },
+};
+apiRestAPIGetERequests(options);
+InputYear.setValue("");
+InputFrom.setValue("");
+InputTo.setValue("");
+SelectReason.setSelectedKey("");
+InputRequestedDays.setValue("");
+InputDaysleft.setValue("");
+TextAreaExtraDetails.setValue("");
+Calendar.removeAllSelectedDates();
+Calendar.removeAllSpecialDates();
+
+
+var wfData = {
+    id: "2AC20371-4E26-EF11-86D2-000D3AB928A5",
+    objectKey: UUID,
+};
+$.ajax({
+    type: "POST",
+    contentType: "application/json",
+    url: "/api/functions/WorkflowInbox/Start", // Remember full path if triggered externally
+    headers: {
+        // Needed when triggered externally
+        Authorization: "Basic xxxx ", // Or use Bearer + token (JWT from user)
+        "X-Requested-With": "XMLHttpRequest",
+    },
+    data: JSON.stringify(wfData),
+    success: function (data) {
+     sap.m.MessageToast.show("Saved and sent to workflow");
+    },
+    error: function (result, status) {
+        sap.m.MessageToast.show("Error please try again!!");
+    },
+});

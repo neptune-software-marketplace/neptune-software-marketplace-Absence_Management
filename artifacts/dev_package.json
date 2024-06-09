@@ -1,0 +1,131 @@
+{
+	"id": "da029115-2924-ef11-86d2-000d3ab928a5",
+	"createdAt": "2024-06-06T17:20:35.956Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptune-software-marketplace-Absence_Management"
+	},
+	"name": "neptunesoftware-dxp-abb-Absence_Request_Dashboard",
+	"description": null,
+	"ver": "24.06.09.1304",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "66cca91c-2924-ef11-86d2-000d3ab928a5",
+			"application": "absence_request_dashboard",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "DA029115-2924-EF11-86D2-000D3AB928A5"
+			}
+		},
+		{
+			"id": "29505dca-4b26-ef11-86d2-000d3ab928a5",
+			"application": "absence_request_embedded_inbox_app",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "DA029115-2924-EF11-86D2-000D3AB928A5"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "0d4ef727-ff24-ef11-86d2-000d3ab928a5",
+			"name": "Absence_Request",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "be6b70e8-fe24-ef11-86d2-000d3ab928a5",
+			"name": "absence_request",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "b1cfdaae-4a26-ef11-86d2-000d3ab928a5",
+			"name": "Rejected",
+			"description": null
+		},
+		{
+			"id": "53d4d1a8-4a26-ef11-86d2-000d3ab928a5",
+			"name": "Approved",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "51d4d1a8-4a26-ef11-86d2-000d3ab928a5",
+			"name": "AbsenceRequest",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "3af4745c-4b26-ef11-86d2-000d3ab928a5",
+			"description": "",
+			"name": "Absence Request "
+		},
+		{
+			"id": "0d5899e5-4a26-ef11-86d2-000d3ab928a5",
+			"description": null,
+			"name": "Absence Request Inbox"
+		}
+	],
+	"category": [
+		{
+			"id": "eae052fc-4a26-ef11-86d2-000d3ab928a5",
+			"description": null,
+			"name": "Absence Request Main"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "defd399c-2a24-ef11-86d2-000d3ab928a5",
+			"name": "Absence_Request",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [
+		{
+			"id": "2ac20371-4e26-ef11-86d2-000d3ab928a5",
+			"title": "Absence Request",
+			"subTitle": null
+		}
+	],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [
+		{
+			"id": "9f910c5f-4e26-ef11-86d2-000d3ab928a5",
+			"name": "Absence Approvers",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "9d910c5f-4e26-ef11-86d2-000d3ab928a5",
+			"name": "Absence Task Aciton",
+			"description": null
+		}
+	]
+}

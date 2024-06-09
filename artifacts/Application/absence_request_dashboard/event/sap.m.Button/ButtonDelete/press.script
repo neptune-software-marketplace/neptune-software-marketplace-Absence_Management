@@ -1,0 +1,16 @@
+const context = oEvent.oSource.getBindingContext();
+const value = context.getProperty("id");
+const stat = context.getProperty("status");
+
+
+if(stat != "Sent"){
+sap.m.MessageToast.show("You can not delete this request its already resulted");
+return;
+}
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({"id":value})
+    }
+};
+apiRestAPIDeleteRequests(options);

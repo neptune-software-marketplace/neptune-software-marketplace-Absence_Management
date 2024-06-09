@@ -1,0 +1,12 @@
+if (typeof tooltip === "undefined" || tooltip === null || tooltip === "") { return; }  
+if(tooltip === "Vac"){
+tooltip = "Vacation";
+}
+if(tooltip === "Nat"){
+tooltip = "National Holiday";
+}
+if(tooltip === "SC"){
+tooltip = "Sick Leave";
+}
+var formattedText = tooltip; 
+return formattedText;
