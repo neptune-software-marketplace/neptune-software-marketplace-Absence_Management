@@ -17,10 +17,10 @@
 			"customApproverScript": "",
 			"enableForward": false,
 			"enableQuery": false,
-			"taskNotification": "",
+			"taskNotification": "FDCAB843-4A22-EF11-86D2-000D3AB928A5",
 			"customerApproverScriptRunSubs": "",
-			"enableNotification": false,
-			"senderEmail": "",
+			"enableNotification": true,
+			"senderEmail": "kaan.koska@naptune-software.com",
 			"enableSave": false,
 			"enableApprove": true,
 			"enableReject": true,
@@ -169,11 +169,14 @@
 						"target": "input-26fe1d8b-9141-48aa-ae0d-339413a76641"
 					}
 				],
-				"posX": 670,
-				"posY": 280,
+				"posX": 650,
+				"posY": 270,
 				"inboxApp": "absence_request_embedded_inbox_app",
 				"userDeterminationLocal": "9F910C5F-4E26-EF11-86D2-000D3AB928A5",
-				"taskAction": "9D910C5F-4E26-EF11-86D2-000D3AB928A5"
+				"taskAction": "9D910C5F-4E26-EF11-86D2-000D3AB928A5",
+				"taskNotification": "FDCAB843-4A22-EF11-86D2-000D3AB928A5",
+				"enableNotification": true,
+				"senderEmail": "kaan.koska@naptune-software.com"
 			},
 			{
 				"id": "object-d1de1123-f3f6-4485-f5d2-fec87a4bb9b8",
@@ -505,6 +508,6 @@
 	"omitSaturday": false,
 	"omitSunday": false,
 	"icon": null,
-	"ver": "24.06.09.1053",
+	"ver": "24.06.10.1505",
 	"package": "da029115-2924-ef11-86d2-000d3ab928a5"
 }

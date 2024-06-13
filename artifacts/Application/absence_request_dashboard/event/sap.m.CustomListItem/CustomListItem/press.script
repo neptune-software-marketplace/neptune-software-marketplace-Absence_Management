@@ -1,0 +1,31 @@
+const context = oEvent.oSource.getBindingContext();
+const start = context.getProperty("start_date");
+const end = context.getProperty("end_date");
+const stat = context.getProperty("status");
+const data = context.getObject();
+
+if (stat === "Sent") {
+    removeSpecialDatesByTooltip("Dates");
+    function addDateRangeToCalendar(startDateStr, endDateStr, itemType, itemTooltip) {
+        var oStartDate = parseDate(startDateStr);
+        var oEndDate = parseDate(endDateStr);
+        var currentDate = new Date(oStartDate);
+
+        while (currentDate <= oEndDate) {
+            var oDateRange = new sap.ui.unified.DateTypeRange({
+                startDate: new Date(currentDate),
+                endDate: new Date(currentDate),
+                type: itemType,
+                tooltip: itemTooltip,
+            });
+            Calendar.addSpecialDate(oDateRange);
+
+            // Move to the next day
+            currentDate.setDate(currentDate.getDate() + 1);
+        }
+    }
+
+    var itemType = "Type06"; // Replace with actual type if needed
+    var itemTooltip = "Dates"; // Replace with actual tooltip if needed
+    addDateRangeToCalendar(start, end, itemType, itemTooltip);
+}

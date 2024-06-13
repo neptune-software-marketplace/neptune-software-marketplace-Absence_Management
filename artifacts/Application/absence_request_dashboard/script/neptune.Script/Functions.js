@@ -27,6 +27,21 @@ function getAllDatesInRange(startDate, endDate) {
     }
     return dateArray;
 }
+function removeSpecialDatesByTooltip(tooltipToRemove) {
+    // Get all special dates from the calendar
+    var specialDates = Calendar.getSpecialDates();
+    
+    // Iterate over the special dates in reverse to avoid issues while removing items
+    for (var i = specialDates.length - 1; i >= 0; i--) {
+        var specialDate = specialDates[i];
+        
+        // Check if the tooltip matches the one to remove
+        if (specialDate.getTooltip() === tooltipToRemove) {
+            // Remove the special date from the calendar
+            Calendar.removeSpecialDate(specialDate);
+        }
+    }
+}
 function parseDate(dateString) {
     var parts = dateString.split("-");
     return new Date(parts[0], parts[1] - 1, parts[2]);

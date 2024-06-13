@@ -1,6 +1,6 @@
 var DaysTotal = 35;
 var UUID;
-TitleUsedDaysNumber.setText(DaysTotal);
+TitleUsedDaysNumber.setText("0");
 TitleLeftDaysCount.setText(DaysTotal);
 TitleTotalAbsenceCount.setText("0");
 TitleLeftNationalHolidaysCount.setText("0");

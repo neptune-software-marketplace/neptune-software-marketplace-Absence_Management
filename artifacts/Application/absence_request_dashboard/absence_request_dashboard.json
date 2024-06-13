@@ -1370,6 +1370,13 @@
 																					"value": "Active",
 																					"script": "",
 																					"translation": []
+																				},
+																				{
+																					"attribute": "press",
+																					"grouping": "Events",
+																					"value": "Anonymous Function",
+																					"script": "file://event/sap.m.CustomListItem/CustomListItem/press.script",
+																					"translation": []
 																				}
 																			],
 																			"data": [
@@ -2948,7 +2955,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.09.1239",
+	"ver": "24.06.11.1729",
 	"application": "absence_request_dashboard",
 	"title": "",
 	"description": "",
