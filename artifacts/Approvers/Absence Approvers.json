@@ -6,27 +6,29 @@
 		{
 			"id": "f7492110-9d82-4a73-9916-01f5508a4520",
 			"orgUnit": "U",
-			"orgValue": "kaan.koska@neptune-software.com",
+			"orgValue": "admin",
 			"amountFrom": 0,
-			"amountTo": "100000",
+			"amountTo": "0",
 			"operation": "O",
 			"taskType": [],
-			"orgId": "0591eb58-f8f2-ed11-907c-000d3a654fb6",
+			"orgId": "71e01d0f-1ba2-4992-9f1e-47a3fa43c159",
 			"taskAction": [
-				"9D910C5F-4E26-EF11-86D2-000D3AB928A5"
+				"9D910C5F-4E26-EF11-86D2-000D3AB928A5",
+				"9d910c5f-4e26-ef11-86d2-000d3ab928a5"
 			]
 		},
 		{
 			"id": "e3503b72-695a-4c0b-db3a-cc32b2e99e20",
-			"orgUnit": "U",
-			"orgValue": "kaan1",
+			"orgUnit": "R",
+			"orgValue": "Admin",
 			"amountFrom": 0,
-			"amountTo": "100000",
+			"amountTo": "0",
 			"operation": "O",
 			"taskType": [],
-			"orgId": "475ffc34-6088-ee11-8925-0022489e2d9f",
+			"orgId": "0391f942-72bd-451f-9814-e9bff55a6235",
 			"taskAction": [
-				"9D910C5F-4E26-EF11-86D2-000D3AB928A5"
+				"9D910C5F-4E26-EF11-86D2-000D3AB928A5",
+				"9d910c5f-4e26-ef11-86d2-000d3ab928a5"
 			]
 		}
 	],

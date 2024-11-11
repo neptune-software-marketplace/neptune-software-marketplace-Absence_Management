@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-Absence_Request_Dashboard",
 	"description": null,
-	"ver": "24.06.10.0643",
+	"ver": "24.11.11.1458",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -16,7 +16,7 @@
 			"title": "",
 			"description": "",
 			"package": {
-				"id": "DA029115-2924-EF11-86D2-000D3AB928A5"
+				"id": "da029115-2924-ef11-86d2-000d3ab928a5"
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 			"title": "",
 			"description": "",
 			"package": {
-				"id": "DA029115-2924-EF11-86D2-000D3AB928A5"
+				"id": "da029115-2924-ef11-86d2-000d3ab928a5"
 			}
 		}
 	],

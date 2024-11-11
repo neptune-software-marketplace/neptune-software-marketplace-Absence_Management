@@ -4,7 +4,7 @@ var userName = AppCache.userInfo.username;
 var year = new Date().getFullYear().toString();
 
 var wfData = {
-    id: "2AC20371-4E26-EF11-86D2-000D3AB928A5",
+    id: "2ac20371-4e26-ef11-86d2-000d3ab928a5",
     objectKey: UUID,
 };
 $.ajax({

@@ -109,13 +109,6 @@
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
 													"attribute": "styleClassMargin",
 													"grouping": "Properties",
 													"value": "sapUiTinyMarginBottom",
@@ -1222,13 +1215,6 @@
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
 													"attribute": "styleClassMargin",
 													"grouping": "Properties",
 													"value": "sapUiTinyMarginTop",
@@ -2041,13 +2027,6 @@
 															"translation": []
 														},
 														{
-															"attribute": "singleSelection",
-															"grouping": "Properties",
-															"value": "true",
-															"script": "",
-															"translation": []
-														},
-														{
 															"attribute": "months",
 															"grouping": "Properties",
 															"value": "12",
@@ -2220,13 +2199,6 @@
 															"value": "Year",
 															"script": "",
 															"translation": []
-														},
-														{
-															"attribute": "required",
-															"grouping": "Properties",
-															"value": "false",
-															"script": "",
-															"translation": []
 														}
 													],
 													"data": []
@@ -2260,15 +2232,7 @@
 													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [
-														{
-															"attribute": "required",
-															"grouping": "Properties",
-															"value": "false",
-															"script": "",
-															"translation": []
-														}
-													],
+													"attributes": [],
 													"data": []
 												},
 												{
@@ -2510,15 +2474,7 @@
 													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [
-														{
-															"attribute": "required",
-															"grouping": "Properties",
-															"value": "false",
-															"script": "",
-															"translation": []
-														}
-													],
+													"attributes": [],
 													"data": []
 												},
 												{
@@ -2715,13 +2671,6 @@
 															"value": "Details",
 															"script": "",
 															"translation": []
-														},
-														{
-															"attribute": "required",
-															"grouping": "Properties",
-															"value": "false",
-															"script": "",
-															"translation": []
 														}
 													],
 													"data": []
@@ -2747,15 +2696,7 @@
 													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [
-														{
-															"attribute": "required",
-															"grouping": "Properties",
-															"value": "false",
-															"script": "",
-															"translation": []
-														}
-													],
+													"attributes": [],
 													"data": []
 												},
 												{
@@ -2955,7 +2896,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.11.1729",
+	"ver": "24.11.11.1454",
 	"application": "absence_request_dashboard",
 	"title": "",
 	"description": "",

@@ -10,8 +10,8 @@
 			"daysUntilOverdue": 1,
 			"title": "Absence Request",
 			"subTitle": "",
-			"userDeterminationLocal": "9F910C5F-4E26-EF11-86D2-000D3AB928A5",
-			"taskAction": "9D910C5F-4E26-EF11-86D2-000D3AB928A5",
+			"userDeterminationLocal": "9f910c5f-4e26-ef11-86d2-000d3ab928a5",
+			"taskAction": "9d910c5f-4e26-ef11-86d2-000d3ab928a5",
 			"scriptId": "",
 			"runScriptInFork": false,
 			"customApproverScript": "",
@@ -172,8 +172,8 @@
 				"posX": 650,
 				"posY": 270,
 				"inboxApp": "absence_request_embedded_inbox_app",
-				"userDeterminationLocal": "9F910C5F-4E26-EF11-86D2-000D3AB928A5",
-				"taskAction": "9D910C5F-4E26-EF11-86D2-000D3AB928A5",
+				"userDeterminationLocal": "9f910c5f-4e26-ef11-86d2-000d3ab928a5",
+				"taskAction": "9d910c5f-4e26-ef11-86d2-000d3ab928a5",
 				"taskNotification": "FDCAB843-4A22-EF11-86D2-000D3AB928A5",
 				"enableNotification": true,
 				"senderEmail": "kaan.koska@naptune-software.com"
@@ -508,6 +508,6 @@
 	"omitSaturday": false,
 	"omitSunday": false,
 	"icon": null,
-	"ver": "24.06.10.1505",
+	"ver": "24.11.11.1455",
 	"package": "da029115-2924-ef11-86d2-000d3ab928a5"
 }
